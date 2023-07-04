@@ -1,0 +1,81 @@
+#header {
+  background: #F5DEB3; /*цвет фона*/
+  height: 55px; /*высота*/
+  padding: 5px;/*внутренние отступы*/
+}
+#footer {
+  background: #f9c0ba; /*цвет фона*/
+  height: 55px; /*высота*/
+  padding: 5px;/*внутренние отступы*/
+  text-align: center;/*выравнивание текста по центру*/
+}
+
+body{
+  margin: 0;
+}
+.logo{
+  height: 50px;
+  margin-right: 10px;
+  float: left;
+}
+.logo-img{
+  width: 50px;
+  height: 50px;
+}
+.menu-header{
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.menu-header a {
+  background-color: #949494; 
+  color: #fff; 
+  padding: 5px; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.login-registation{
+  float: right;
+  /*line-height: 50px;
+  vertical-align: middle;*/
+}
+
+
+
+#content{
+  min-height: 300px; 
+  background-color: #b6d3f7;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+}
+.card img{
+  width:200px;
+  display: block;
+  margin: 2px auto;
+}
+
+.add-card{
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+}
+
+.sect-headerinc{
+  background: #f9c0ba; /*цвет фона*/
+  height: 55px; /*высота*/
+  padding: 5px;/*внутренние отступы*/
+  text-align: center;/*выравнивание текста по центру*/
+}
